@@ -76,7 +76,7 @@ def predict():
 
         # print(prediction)
 
-        if(prediction == "N"):
+        if(prediction == 0):
             prediction = "Rejected"
         else:
             prediction = "Approved"
